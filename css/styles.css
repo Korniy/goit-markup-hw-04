@@ -1,8 +1,8 @@
 :root {
   /* Основний шрифт */
-  --main-font: "Roboto", sans-serif;
+  --main-font: 'Roboto', sans-serif;
   /* Другорядний шрифт */
-  --secondary-font: "Raleway", sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* Основний колір */
   --main-text-color: #212121;
@@ -15,6 +15,7 @@
   --main-light-bg: #ffffff;
   --second-light-bg: #f5f4fa;
   --black-bg-color: #2f303a;
+  --hero-bg-color: #c4c4c4;
 }
 
 body {
@@ -145,7 +146,16 @@ span {
 
 /* Секція герой HERO */
 .hero {
-  background-color: var(--black-bg-color);
+  max-width: 1600;
+  height: 600;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--hero-bg-color);
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -163,10 +173,10 @@ span {
 }
 
 .hero-btn {
+  min-width: 200px;
   padding: 9px 32px;
   border-radius: 4px;
   border: 1px solid var(--accent-text-color);
-  min-width: 200px;
 
   align-items: center;
   font-family: var(--main-font);
@@ -196,11 +206,38 @@ span {
 
 .advantages-item {
   width: 270px;
-  height: 101px;
+  height: 251px;
 }
 
 .advantages-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.advantages-item::before {
+  margin-bottom: 30px;
+
+  content: '';
+  display: block;
+  height: 120px;
+  background-color: var(--second-light-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/icons/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../images/icons/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/icons/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/icons/astronaut.svg);
 }
 
 .advantages-title {
@@ -268,9 +305,17 @@ span {
   margin-right: 30px;
 }
 
+.team-img.no-gap {
+  display: block;
+}
+
 .team-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
+  background: var(--main-light-bg);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {

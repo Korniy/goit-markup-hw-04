@@ -109,6 +109,19 @@ span {
   color: var(--accent-text-color);
 }
 
+/* .header-icon-mail {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-left: 305px;
+}
+
+.header-icon-phone {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+} */
+
 .header-mail {
   margin-left: 331px;
   margin-right: 50px;
@@ -213,31 +226,19 @@ span {
   margin-right: 30px;
 }
 
-.advantages-item::before {
-  margin-bottom: 30px;
-
-  content: '';
+.advantages-icons {
   display: block;
+  width: 270px;
   height: 120px;
-  background-color: var(--second-light-bg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #f5f4fa;
+  /* background-position: 50% 50%; */
+  margin-bottom: 30px;
 }
 
-.icon-antenna::before {
-  background-image: url(../images/icons/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/icons/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
+.advantages-icon {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px 25px 100px;
 }
 
 .advantages-title {

@@ -337,6 +337,16 @@ span {
   color: #757575;
 }
 
+/* Секція клієнти clients*/
+
+.clients-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
 /* Секція підвал FOOTER */
 .footer {
   background-color: var(--black-bg-color);

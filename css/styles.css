@@ -227,18 +227,17 @@ span {
 }
 
 .advantages-icons {
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  /* background-position: 50% 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+  background-color: var(--second-light-bg);
+  padding: 25px 100px 25px 100px;
 }
 
 .advantages-icon {
   width: 70px;
   height: 70px;
-  margin: 25px 100px 25px 100px;
 }
 
 .advantages-title {

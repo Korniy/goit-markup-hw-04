@@ -329,11 +329,27 @@ span {
 }
 
 .team-text {
+  margin-bottom: 16px;
+
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.team-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-link {
+  margin-bottom: 30px;
 }
 
 /* Секція клієнти clients*/

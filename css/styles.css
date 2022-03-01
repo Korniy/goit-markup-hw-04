@@ -357,12 +357,33 @@ span {
 
 /* Секція клієнти clients*/
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients-title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icon {
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
 }
 
 /* Секція підвал FOOTER */
@@ -472,7 +493,8 @@ span {
 }
 
 .portfolio-second-item {
-  flex-basis: calc((100% - 90px) / 3);
+  /* flex-basis: calc((100% - 90px) / 3); */
+  flex-basis: calc(100% / 3 - 60px);
 }
 
 .nav-list .link.curretn {

@@ -303,6 +303,8 @@ span {
 
 .team-item:not(:last-child) {
   margin-right: 30px;
+  width: 270px;
+  height: 428px;
 }
 
 .team-img.no-gap {
@@ -335,21 +337,29 @@ span {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 .team-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: var(--main-light-bg);
 }
 
 .team-link:not(:last-child) {
   margin-right: 10px;
 }
 
-.team-link {
-  margin-bottom: 30px;
+.team-link:hover,
+.team-link:focus {
+  border-radius: 50%;
+  fill: var(--accent-text-color);
+  background-color: var(--main-light-bg);
+}
+
+.team-icons:hover,
+.team-icons:focus {
 }
 
 /* Секція клієнти clients*/

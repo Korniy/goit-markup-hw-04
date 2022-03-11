@@ -353,9 +353,19 @@ span {
   justify-content: center;
 }
 
+.team-icons {
+  border-radius: 50px;
+}
+
 .team-link:not(:last-child) {
   margin-right: 10px;
 }
+
+/* .team-link {
+  border-radius: 50px;
+  fill: var(--main-light-bg);
+  background-color: var(--accent-text-color);
+} */
 
 /* Секція клієнти clients*/
 
@@ -455,6 +465,19 @@ span {
   color: var(--accent-text-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 10px;
+}
 /* Секція портфоліо PORTFOLIO */
 .portfolio {
   padding-top: 94px;
@@ -474,14 +497,14 @@ span {
 .portfolio-btn {
   padding: 5px 22px;
   border-radius: 4px;
-  border: 1px solid #f5f4fa;
+  border: 1px solid var(--second-light-bg);
 
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  background: var(--second-light-bg);
   color: var(--main-text-color);
 }
 

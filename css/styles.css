@@ -21,6 +21,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-text-color);
+  background-color: tomato;
 }
 
 .container {
@@ -358,7 +359,6 @@ span {
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
 .team-link:hover,
 .team-link:focus {
   border-radius: 50%;
@@ -370,8 +370,6 @@ span {
 .team-icons:focus {
 }
 
-=======
->>>>>>> 35a91c7316c565167e73e8e93ebe3f629c6bcd7a
 /* Секція клієнти clients*/
 
 .clients {

@@ -384,8 +384,15 @@ span {
   margin-right: 30px;
 }
 
-.clients-link:hover {
+.clients-link {
+  fill: #afb1b8;
 }
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-text-color);
+}
+
 .clients-icon {
   padding: 16px 32px 16px 32px;
 

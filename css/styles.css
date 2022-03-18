@@ -341,8 +341,13 @@ span {
 }
 
 .team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 44px;
   height: 44px;
+  border-radius: 50%;
 }
 
 .team-link:hover .team-icons,
@@ -351,7 +356,7 @@ span {
   fill: var(--main-light-bg);
 }
 
-.team-link:not(:last-child) {
+.team-icon-list:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -538,6 +543,7 @@ span {
 .portfolio-second-item {
   margin-top: 30px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .portfolio-img.no-gap {
@@ -547,6 +553,10 @@ span {
 .portfolio-second-item {
   flex-basis: calc((100% - 90px) / 3);
   /* flex-basis: calc(100% / 3 - 60px); */
+}
+
+.portfolio-second-item:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .nav-list .link.curretn {

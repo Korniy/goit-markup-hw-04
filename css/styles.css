@@ -377,13 +377,13 @@ span {
   margin-right: 30px;
 }
 
-.clients-link {
+.clients-icon {
   fill: #afb1b8;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-icon:hover {
   fill: var(--accent-text-color);
+  border-color: var(--accent-text-color);
 }
 
 .clients-icon {
@@ -448,6 +448,11 @@ span {
   color: var(--accent-text-color);
 }
 
+.footer-wrapper {
+  /* margin-left: auto;  */
+  width: 206px;
+  height: 80px;
+}
 .footer-list {
   display: flex;
   justify-content: center;

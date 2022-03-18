@@ -147,6 +147,7 @@ span {
 
 .header-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-wrapper .header-mail:hover,

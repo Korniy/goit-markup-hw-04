@@ -110,6 +110,9 @@ span {
 }
 
 .header-mail {
+  display: flex;
+  align-items: center;
+
   margin-left: 331px;
   margin-right: 50px;
 
@@ -121,6 +124,9 @@ span {
 }
 
 .header-phone {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,6 +138,25 @@ span {
   margin-left: auto;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.header-wrapper .header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  margin-right: 10px;
+}
+
+.header-wrapper .header-mail:hover,
+.header-wrapper .header-mail:focus {
+  fill: var(--accent-text-color);
+}
+
+.header-wrapper .header-phone:hover,
+.header-wrapper .header-phone:focus {
+  fill: var(--accent-text-color);
 }
 
 .header-phone:hover,

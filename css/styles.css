@@ -381,7 +381,8 @@ span {
   fill: #afb1b8;
 }
 
-.clients-icon:hover {
+.clients-icon:hover,
+.clients-icon:focus {
   fill: var(--accent-text-color);
   border-color: var(--accent-text-color);
 }

@@ -341,13 +341,24 @@ span {
 }
 
 .team-link {
+  width: 44px;
+  height: 44px;
 }
 
-.team-icons {
+.team-link:hover .team-icons,
+.team-link:focus .team-icons {
+  background-color: var(--accent-text-color);
+  fill: var(--main-light-bg);
 }
 
 .team-link:not(:last-child) {
   margin-right: 10px;
+}
+
+.team-icons {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
 }
 
 /* Секція клієнти clients*/
@@ -450,17 +461,34 @@ span {
 }
 
 .footer-wrapper {
-  /* margin-left: auto;  */
-  width: 206px;
-  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .footer-list {
   display: flex;
-  justify-content: center;
 }
 
 .footer-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--accent-text-color);
 }
 
 /* Секція портфоліо PORTFOLIO */
@@ -517,8 +545,8 @@ span {
 }
 
 .portfolio-second-item {
-  /* flex-basis: calc((100% - 90px) / 3); */
-  flex-basis: calc(100% / 3 - 60px);
+  flex-basis: calc((100% - 90px) / 3);
+  /* flex-basis: calc(100% / 3 - 60px); */
 }
 
 .nav-list .link.curretn {

@@ -109,19 +109,6 @@ span {
   color: var(--accent-text-color);
 }
 
-/* .header-icon-mail {
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  margin-left: 305px;
-}
-
-.header-icon-phone {
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-} */
-
 .header-mail {
   margin-left: 331px;
   margin-right: 50px;
@@ -353,19 +340,15 @@ span {
   justify-content: center;
 }
 
+.team-link {
+}
+
 .team-icons {
-  border-radius: 50px;
 }
 
 .team-link:not(:last-child) {
   margin-right: 10px;
 }
-
-/* .team-link {
-  border-radius: 50px;
-  fill: var(--main-light-bg);
-  background-color: var(--accent-text-color);
-} */
 
 /* Секція клієнти clients*/
 
@@ -465,19 +448,15 @@ span {
   color: var(--accent-text-color);
 }
 
-.footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .footer-list {
   display: flex;
+  justify-content: center;
 }
 
 .footer-item:not(:last-child) {
   margin-right: 10px;
 }
+
 /* Секція портфоліо PORTFOLIO */
 .portfolio {
   padding-top: 94px;
@@ -542,7 +521,7 @@ span {
 
 .portfolio-wrapper {
   padding: 20px 24px;
-  background: #ffffff;
+  background: var(--main-light-bg);
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;

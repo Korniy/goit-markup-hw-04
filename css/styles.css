@@ -336,7 +336,6 @@ span {
 
 .team-icon {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -352,8 +351,12 @@ span {
 
 .team-link:hover .team-icons,
 .team-link:focus .team-icons {
-  background-color: var(--accent-text-color);
   fill: var(--main-light-bg);
+}
+
+.team-link:hover,
+.team-link:focus {
+  background-color: var(--accent-text-color);
 }
 
 .team-icon-list:not(:last-child) {

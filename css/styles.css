@@ -452,7 +452,7 @@ span {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-link {
@@ -502,9 +502,7 @@ span {
 }
 
 .footer-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  margin-left: 70px;
 }
 
 .footer-text {

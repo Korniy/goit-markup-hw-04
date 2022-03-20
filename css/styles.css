@@ -177,7 +177,8 @@ span {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hero-bg-color);
-  background-image: url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -442,10 +443,16 @@ span {
 }
 
 /* Секція підвал FOOTER */
+
 .footer {
   background-color: var(--black-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
 }
 
 .footer-link {
@@ -496,12 +503,24 @@ span {
 
 .footer-wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-light-bg);
 }
 
 .footer-list {
   display: flex;
+  align-items: center;
 }
 
 .footer-item:not(:last-child) {

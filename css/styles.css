@@ -244,9 +244,10 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+
   margin-bottom: 30px;
   background-color: var(--second-light-bg);
-  padding: 25px 100px 25px 100px;
+  height: 120px;
 }
 
 .advantages-icon {
@@ -427,15 +428,14 @@ span {
   fill: #afb1b8;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-text-color);
   border-color: var(--accent-text-color);
 }
 
 .clients-icon {
   padding: 16px 32px 16px 32px;
-
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
   width: 170px;
